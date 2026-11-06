@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feedback | MediGuide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<a href="index.html" class="logo">Medi<span>Guide</span></a>
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+<nav id="nav">
+<a href="index.html">Home</a>
+<a href="hospital.html">Hospital</a>
+<a href="bloodbank.html">Blood Bank</a>
+<a href="donor.html">Donors</a>
+<a href="organ.html">Organ Help</a>
+<a href="doctor.html">Doctors</a>
+<a href="team.html">Team</a>
+<a href="feedback.html">Feedback</a>
+</nav>
+</header>
+
+<section class="page-hero">
+<span class="tag">YOUR EXPERIENCE MATTERS</span>
+<h1>Feedback</h1>
+<p>Help us improve MediGuide.</p>
+</section>
+
+<section class="section">
+<div class="feedback-container">
+
+<h2>Share Your Feedback</h2>
+<p>Tell us about your experience using our project.</p>
+
+<form id="feedbackForm">
+
+<label for="name">Your Name</label>
+<input type="text" id="name" placeholder="Enter your name" required>
+
+<label for="email">Email</label>
+<input type="email" id="email" placeholder="Enter your email" required>
+
+<label for="rating">Rating</label>
+<select id="rating" required>
+<option value="">Select rating</option>
+<option>Excellent</option>
+<option>Very Good</option>
+<option>Good</option>
+<option>Average</option>
+<option>Needs Improvement</option>
+</select>
+
+<label for="message">Your Feedback</label>
+<textarea id="message" rows="5" placeholder="Write your feedback..." required></textarea>
+
+<button type="submit" class="btn">Submit Feedback</button>
+
+</form>
+
+<div id="feedbackMessage"></div>
+
+</div>
+</section>
+
+<footer>
+<h3>MediGuide</h3>
+<p>Thank you for your feedback!</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

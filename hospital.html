@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hospital Navigation | MediGuide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<a href="index.html" class="logo">Medi<span>Guide</span></a>
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+<nav id="nav">
+<a href="index.html">Home</a>
+<a href="hospital.html">Hospital</a>
+<a href="bloodbank.html">Blood Bank</a>
+<a href="donor.html">Donors</a>
+<a href="organ.html">Organ Help</a>
+<a href="doctor.html">Doctors</a>
+<a href="team.html">Team</a>
+<a href="feedback.html">Feedback</a>
+</nav>
+</header>
+
+<section class="page-hero">
+<span class="tag">HOSPITAL ASSISTANCE</span>
+<h1>Hospital Navigation</h1>
+<p>Find departments and understand where to go.</p>
+</section>
+
+<section class="section">
+<div class="section-heading">
+<h2>Hospital Departments</h2>
+<p>Select a department to view its purpose and location.</p>
+</div>
+
+<div class="search-box">
+<input id="search" placeholder="Search department..." oninput="searchCards()">
+</div>
+
+<div class="grid" id="departments">
+
+<div class="service-card searchable">
+<div class="service-icon">❤️</div>
+<h3>Cardiology</h3>
+<p>Heart and cardiovascular care.</p>
+<p><b>Location:</b> Block A</p>
+<p><b>Floor:</b> 1st Floor</p>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">🧠</div>
+<h3>Neurology</h3>
+<p>Brain and nervous system care.</p>
+<p><b>Location:</b> Block B</p>
+<p><b>Floor:</b> 2nd Floor</p>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">🦴</div>
+<h3>Orthopedics</h3>
+<p>Bone, joint and muscle care.</p>
+<p><b>Location:</b> Block A</p>
+<p><b>Floor:</b> Ground Floor</p>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">👶</div>
+<h3>Pediatrics</h3>
+<p>Healthcare for children.</p>
+<p><b>Location:</b> Block C</p>
+<p><b>Floor:</b> 1st Floor</p>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">🩺</div>
+<h3>General Medicine</h3>
+<p>General medical consultation.</p>
+<p><b>Location:</b> Block A</p>
+<p><b>Floor:</b> Ground Floor</p>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">🩸</div>
+<h3>Blood Bank</h3>
+<p>Blood-related assistance.</p>
+<p><b>Location:</b> Block D</p>
+<p><b>Floor:</b> Ground Floor</p>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">🚑</div>
+<h3>Emergency</h3>
+<p>Urgent medical assistance.</p>
+<p><b>Location:</b> Main Entrance</p>
+<p><b>Floor:</b> Ground Floor</p>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">🧪</div>
+<h3>Laboratory</h3>
+<p>Medical diagnostic testing.</p>
+<p><b>Location:</b> Block B</p>
+<p><b>Floor:</b> Ground Floor</p>
+</div>
+
+</div>
+</section>
+
+<footer>
+<h3>MediGuide</h3>
+<p>Hospital Navigation System</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

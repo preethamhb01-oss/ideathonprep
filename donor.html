@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blood Donors | MediGuide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<a href="index.html" class="logo">Medi<span>Guide</span></a>
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+<nav id="nav">
+<a href="index.html">Home</a>
+<a href="hospital.html">Hospital</a>
+<a href="bloodbank.html">Blood Bank</a>
+<a href="donor.html">Donors</a>
+<a href="organ.html">Organ Help</a>
+<a href="doctor.html">Doctors</a>
+<a href="team.html">Team</a>
+<a href="feedback.html">Feedback</a>
+</nav>
+</header>
+
+<section class="page-hero">
+<span class="tag">DONOR COMMUNITY</span>
+<h1>Blood Donors</h1>
+<p>Explore our sample donor directory.</p>
+</section>
+
+<section class="section">
+<div class="section-heading">
+<h2>Donor Directory</h2>
+<p>Search sample donor records by name or blood group.</p>
+</div>
+
+<div class="search-box">
+<input id="search" placeholder="Search donors..." oninput="searchCards()">
+</div>
+
+<div class="grid">
+
+<div class="service-card searchable">
+<div class="service-icon">❤️</div>
+<h3>Preetham HB</h3>
+<p><b>Blood Group:</b> O+</p>
+<p><b>Location:</b> Chikkamagaluru</p>
+<span class="status">Sample Profile</span>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">❤️</div>
+<h3>Nidhi BS</h3>
+<p><b>Blood Group:</b> A+</p>
+<p><b>Location:</b> Bengaluru</p>
+<span class="status">Sample Profile</span>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">❤️</div>
+<h3>Prathap</h3>
+<p><b>Blood Group:</b> B+</p>
+<p><b>Location:</b> Mysuru</p>
+<span class="status">Sample Profile</span>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">❤️</div>
+<h3>Rahul Kumar</h3>
+<p><b>Blood Group:</b> O−</p>
+<p><b>Location:</b> Bengaluru</p>
+<span class="status">Sample Profile</span>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">❤️</div>
+<h3>Ananya Sharma</h3>
+<p><b>Blood Group:</b> AB+</p>
+<p><b>Location:</b> Mysuru</p>
+<span class="status">Sample Profile</span>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">❤️</div>
+<h3>Arjun R</h3>
+<p><b>Blood Group:</b> B−</p>
+<p><b>Location:</b> Bengaluru</p>
+<span class="status">Sample Profile</span>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">❤️</div>
+<h3>Kavya S</h3>
+<p><b>Blood Group:</b> A−</p>
+<p><b>Location:</b> Shivamogga</p>
+<span class="status">Sample Profile</span>
+</div>
+
+<div class="service-card searchable">
+<div class="service-icon">❤️</div>
+<h3>Vijay Kumar</h3>
+<p><b>Blood Group:</b> AB−</p>
+<p><b>Location:</b> Chikkamagaluru</p>
+<span class="status">Sample Profile</span>
+</div>
+
+</div>
+
+<div class="notice">
+<h3>Demo Information</h3>
+<p>
+These are demonstration profiles for your college project.
+Names and blood groups are sample data, not verified donors.
+Do not use them for real medical emergencies.
+</p>
+</div>
+</section>
+
+<footer>
+<h3>MediGuide</h3>
+<p>Donor Assistance System</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
